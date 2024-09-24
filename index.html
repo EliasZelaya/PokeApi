@@ -10,18 +10,18 @@
     <title>Pokemon</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/icon/pokeball.png" />
+    <script type="module" src="./assets/js/app.js" defer></script>
   </head>
   <body>
     <header>
-      <figure>
+      <figure class="logo">
         <img
           src="./assets/img/LogoPokemon.png"
           alt="Logo from pokemon"
-          width="300px"
         />
       </figure>
-      <form action="">
-        <div class="search-section">
+      <form action="" class="search-section">
+        <div class="container">
           <label for="search-pokemon">
             <i class="fa fa-search"></i>
           </label>
@@ -29,43 +29,7 @@
         </div>
       </form>
     </header>
-    <main>
-      <div class="cards">
-        <figure>
-          <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/132.png"
-            alt="Image of pokemon"
-          />
-          <figcaption>Ditto</figcaption>
-        </figure>
-      </div>
-      <div class="cards">
-        <figure>
-          <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/132.png"
-            alt="Image of pokemon"
-          />
-          <figcaption>Ditto</figcaption>
-        </figure>
-      </div>
-      <div class="cards">
-        <figure>
-          <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/132.png"
-            alt="Image of pokemon"
-          />
-          <figcaption>Ditto</figcaption>
-        </figure>
-      </div>
-      <div class="cards">
-        <figure>
-          <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/132.png"
-            alt="Image of pokemon"
-          />
-          <figcaption>Ditto</figcaption>
-        </figure>
-      </div>
+    <main class="pokemons-section">
     </main>
     <footer></footer>
   </body>
